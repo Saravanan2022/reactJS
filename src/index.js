@@ -1,13 +1,28 @@
 import React from "react"
 import ReactDom from "react-dom"
 
-function MyApp() {
+function MyInfo() {
 return (
    <div>
-     <li>HTML</li>
-     <li>CSS</li>
-     <li>Java Script</li>
-   </div>
+    <h1>Saravanan </h1> 
+    <p> 
+      Hi, I am Saravanan and interested to learn ReactJS 
+      <br></br>
+      My vaction locations are in order and unorder list are: 
+     <br></br>
+     <ul>
+      <li>Seattle</li>
+      <li>London</li>
+      <li>Seoul</li>
+     </ul> 
+       <ol>
+          <li>Seattle</li>
+          <li>London</li>
+          <li>Seoul</li>
+      </ol>
+     </p>  
+   </div>  
 )
 }
-ReactDom.render(<MyApp />,document.getElementById("root"))
+
+ReactDom.render(<MyInfo />,document.getElementById("root"))
