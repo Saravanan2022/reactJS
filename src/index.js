@@ -1,4 +1,13 @@
 import React from "react"
 import ReactDom from "react-dom"
 
-ReactDom.render(<h1>Hello world </h1> ,document.getElementById("root"))
+function MyApp() {
+return (
+   <div>
+     <li>HTML</li>
+     <li>CSS</li>
+     <li>Java Script</li>
+   </div>
+)
+}
+ReactDom.render(<MyApp />,document.getElementById("root"))
